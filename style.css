@@ -14,17 +14,19 @@
     padding: 0 10%;
     position: fixed;
     z-index: 500;
+    max-height: 50px;
 }
 
 .genere{
     color: white;
 }
 
-.logo{
-
+.logo-ok{
+max-height: 40px;
 }
 
 .icon{
+    color: white;
 
 }
 
@@ -34,13 +36,12 @@
 }
 
 .col{
-    width: calc ( 100% / 3);
+    width: calc (( 100% / 3) -100px);
     margin: 0 5px;
-    min-height: 100px;
     padding: 20px;
     position: relative;
     background-color: grey;
-    
+    max-height: 100%
 }
 
 .img-prod{
@@ -70,8 +71,24 @@
 
 .img-prod-2{
     width: 100%;
+    height: 100%;
 }
 
 img-prod-3{
     width: 100%;
+}
+
+.first-img{
+    width: 100%;
+    height: 100%;   
+}
+
+.second-img{
+    width: 100%;
+    height: 100%;
+}
+
+.third-img{
+    width: 100%;
+    height: 100%;
 }
